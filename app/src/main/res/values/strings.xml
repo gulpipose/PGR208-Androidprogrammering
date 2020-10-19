@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NoForeignLandApp</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="title_activity_location_map">Map</string>
+    <string name="title_activity_main">NoForeignLand</string>
+    <string name="logo_description">Logo No Foreign Land App</string>
+    <string name="open_location_description">open location in google maps</string>
+    <string name="location_description">Photo of Location</string>
+    <string name="no_connection_message">Check your internet connection.</string>
+</resources>

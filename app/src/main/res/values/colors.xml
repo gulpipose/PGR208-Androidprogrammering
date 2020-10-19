@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_colorPrimary">#F3FEFF</color>
+    <color name="splash_colorPrimaryDark">#F3FEFF</color>
+    <color name="splash_colorAccent">#373E49</color>
+
+    <color name="list_colorPrimary">#F3FEFF</color>
+    <color name="list_colorPrimaryDark">#0097A7</color>
+    <color name="list_colorAccent">#0097A7</color>
+</resources>
