@@ -21,7 +21,7 @@ are responsible for fetching data from either the API endpoints or the implement
 I'm a little uncertain whether it was a good idea to call on the database-repository in the apirepository, as that would mean that they are dependent on each other. The same goes for calling on
 the API-repository to fetch data from the API and add it to the database directly from the
 SplashActivity, because it means that the SplashActivity currently is directly reliant on the APIrepository. My reasoning for keeping it this way, is that the call is not relevant to any UI-component.
-API calls and caching
+
 
 #### API fetching and caching
 
@@ -35,7 +35,6 @@ location is visible in the recyclerview, so that on clicking it would only be ne
 call for the photo URL. However, this would've led to many unnecessary network calls, so I decided
 against it. When clicking the location icon in the list, it does a similar call to the second API endpoint
 and retrieves the LAT and LON values for the location, that gets loaded in the LocationMapActivity.
-Libraries
 
 
 #### Libraries
